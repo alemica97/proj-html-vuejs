@@ -1,5 +1,7 @@
 <template>
-    <myHeader />
+    <div>
+        <myHeader />
+    </div>
 </template>
 
 <script>
@@ -15,5 +17,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    div{
+        background-color: #333;
+    }
 </style>
