@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import myHeader from '/Header.vue'
+import myHeader from './Header.vue'
 
 export default {
     name: 'myJumbo',

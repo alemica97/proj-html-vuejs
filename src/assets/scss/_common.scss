@@ -1,0 +1,22 @@
+@import "~@fontsource/old-standard-tt/index.css";
+@import "~@fontsource/old-standard-tt/cyrillic-400.css";
+@import "~@fontsource/old-standard-tt/cyrillic-700.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+html{
+    font-family: "Old Standard TT", serif;
+}
