@@ -1,8 +1,8 @@
 <template>
-    <header class="container-md p-3">
+    <header class="container-xl">
         <!-- Per la navbar ho utilizzato il componente di Bootstrap, al quale ho apportato le modifiche necessarie -->
         <nav class="navbar navbar-expand-lg p-0 navbar-dark bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid px-0 px-lg-2">
                 <a class="navbar-brand" href="#">
                     <!-- L'immagine l'ho passata tramite binding dell'elemento data() 'mainLogoLight'  -->
                     <img :src="mainLogoLight" alt="">
@@ -13,20 +13,23 @@
                 <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
                     <!-- Per la lista dei link della navbar ho utilizzato un ciclo v-for al quale ho passato
                     gli oggetti dell'Array 'navLinks' -->
-                    <ul class="navbar-nav me-0 mb-0 gap-3">
+                    <ul class="navbar-nav me-0 mb-0 flex-grow-1 justify-content-end">
                         <li v-for="(link, index) in navLinks" :key="index" 
                         class="nav-item">
                         <a class="nav-link" :href="link.href">{{ link.link }}</a>
                         </li>
                     </ul>
-                    <form class="d-flex gap-4">
+                    <form class="mt-3 mt-lg-0 d-flex">
                         <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="cart-number">0</div>
+                        </a>
                         <a href=""><i class="fa-solid fa-bars"></i></a>
                     </form>
                 </div>
             </div>
-</nav>
+        </nav>
     </header>
 </template>
 
@@ -72,12 +75,16 @@ export default {
 
 <style lang="scss" scoped>
 
+    .container-xl{
+        padding: 30px 20px;
+    }
+
     .navbar-brand{
-        width: 150px;
+        width: 190px;
     }
 
     a{
-        color: white;
+        color: #FFFFFF;
         text-decoration: none;
 
         &:hover{
@@ -90,7 +97,7 @@ export default {
     }
 
     .navbar-dark .navbar-nav .nav-link {
-        color: white;
+        color: #FFFFFF;
         text-transform: uppercase;
 
         &:hover{
@@ -98,4 +105,31 @@ export default {
         }
     }
 
+
+    .navbar-nav{
+        column-gap: 30px;
+        font-weight: 600;
+    }
+
+    form{
+        column-gap: 35px;
+        font-size: 18px;
+    }
+
+    form a:nth-child(2n){
+        position: relative;
+    }
+
+    .cart-number{
+        position: absolute;
+        top: -3px;
+        right: -8px;
+        background-color: #40C4FF;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 16px;
+        font-size: 11px;
+    }
 </style>
