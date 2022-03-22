@@ -55,7 +55,8 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        position: absolute; //una prova per far funzionare il dropdown che con position: relative; non funziona
+        //position: absolute; //una prova per far funzionare il dropdown che con position: relative; non funziona
+        position: relative;
         min-height: 400px;
         z-index: -1;
 
@@ -89,8 +90,8 @@ export default {
             }
         }
     }
-    //questo è qui finché non capisco perché non funziona correttamente il file _common.scss
-    button{
+   
+    button{  //questo è qui finché non capisco perché non funziona correttamente il file _common.scss
         font-size: calc(10px + 0.5vw);
         font-weight: 600;
     }

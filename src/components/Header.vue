@@ -118,6 +118,10 @@ export default {
 
     form a:nth-child(2n){
         position: relative;
+
+        &:hover .cart-number{
+            background-color: #FFFFFF;
+        }
     }
 
     .cart-number{
