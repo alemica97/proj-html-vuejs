@@ -58,7 +58,7 @@ export default {
         //position: absolute; //una prova per far funzionare il dropdown che con position: relative; non funziona
         position: relative;
         min-height: 400px;
-        z-index: -1;
+        z-index: 0;
 
         &:after {
             position: absolute;

@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Old Standard TT", serif;
 }
 
 a{
@@ -17,9 +18,6 @@ ul,li{
     list-style-type: none;
 }
 
-html{
-    font-family: "Old Standard TT", serif;
-}
 
 img{
     max-width: 100%;
@@ -32,8 +30,8 @@ figure{
 button{
     padding: 16px 48px;
     border: none;
-    // font-weight: 600;
-    // text-transform: uppercase;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
 }
 
 .btn-blue{
