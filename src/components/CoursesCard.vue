@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name: 'cardSectionOne',
+    name: 'coursesCard',
 
     props:{
         cardsEl:{
@@ -41,6 +41,7 @@ export default {
             font-weight: 700;
         }
     }
+
     @media screen and (min-width: 992px){
         .col-lg-1 {
             flex: 0 0 auto;

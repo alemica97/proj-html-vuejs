@@ -1,17 +1,17 @@
 <template>
     <main>
-        <sectionOne />
+        <coursesSection />
     </main>
 </template>
 
 <script>
-import sectionOne from './MainSectionOne.vue'
+import coursesSection from './CoursesSection.vue'
 
 export default {
     name: 'myMain',
 
     components: {
-        sectionOne,
+        coursesSection,
     }
 }
 </script>

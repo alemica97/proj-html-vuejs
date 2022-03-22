@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron container-fluid">
+    <div id="jumbo" class="jumbotron container-fluid">
         <myHeader />
         
         <div class="container-sm px-0 px-lg-4 px-xl-5">
