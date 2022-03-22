@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Old Standard TT", serif;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -20,7 +21,7 @@ ul,li{
 
 
 img{
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 figure{

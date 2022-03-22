@@ -1,5 +1,5 @@
 <template>
-    <section id="courser" class="container-fluid">
+    <section id="courses" class="container-fluid">
         <div class="top">
             <a href="#jumbo">
                 <i class="fa-solid fa-chevron-up"></i>
@@ -14,7 +14,7 @@
                 :key="index"
                 :cardsEl="element"/>
             </div>
-            <div class="row tutoring px-4 px-md-5 px-lg-0">
+            <div class="row tutoring ">
                 <div class="col-12 col-md-8 col-lg-6">
                     <h1 class="mb-4">{{ courseSectionTitle }}</h1>
                 </div>
@@ -79,20 +79,22 @@ export default {
 
 <style lang="scss" scoped>
 
-    #courser{
+    #courses{
         position: relative;
+        border-bottom: 1px solid #00000026;
 
         .top{
             width: 70px;
             height: 70px;
             background-color: #40C4FF;
-            position: absolute;
+            position: fixed;
             right: 0;
             bottom: 20%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            z-index: 999;
 
             & span{
                 display: block;
@@ -128,11 +130,5 @@ export default {
              font-size: calc(14px + 0.4vw);
              color: #3E3E3E;
          }
-    }
-
-    button{
-        text-transform: uppercase;
-        font-weight: 600;
-        padding: 0;
     }
 </style>

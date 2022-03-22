@@ -55,7 +55,6 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        //position: absolute; //una prova per far funzionare il dropdown che con position: relative; non funziona
         position: relative;
         min-height: 400px;
         z-index: 0;
@@ -76,11 +75,11 @@ export default {
             z-index: 999;
 
             .jumbo-title{
-                font-size: calc(45px + 1.7vw);
+                font-size: calc(40px + 1.6vw);
                 font-weight: 700;
             }
             .jumbo-paragraph{
-                font-size: calc(12px + 0.5vw);
+                font-size: calc(14px + 0.3vw);
                 font-weight: 400;
                 color: #ffffffe0;
             }
