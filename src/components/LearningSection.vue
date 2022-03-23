@@ -94,7 +94,7 @@ export default {
         border-right: 1px solid #E6E6E6;
         border-left: 1px solid #E6E6E6;
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
         font-size: calc(14px + 0.5vw);
         font-weight: 700;

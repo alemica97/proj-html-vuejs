@@ -12,6 +12,8 @@
         <onlineCourses />
         <!-- Sezione 6 del Main  -->
         <pricingPlans />
+        <!-- Sezione 7 del Main  -->
+        <logoSection />
     </main>
 </template>
 
@@ -22,6 +24,7 @@ import studentsCarouselSection from './StudentsCarouselSection.vue'
 import learningSection from './LearningSection.vue'
 import onlineCourses from './OnlineCourses.vue'
 import pricingPlans from './PricingPlans.vue'
+import logoSection from './LogoSection.vue'
 
 export default {
     name: 'myMain',
@@ -33,6 +36,7 @@ export default {
         learningSection,
         onlineCourses,
         pricingPlans,
+        logoSection,
     }
 }
 </script>

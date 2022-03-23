@@ -1,5 +1,15 @@
 <template>
     <section id="pricing-plans" class="contaer-fluid">
+        <div class="circle">
+            <figure>
+                <img src="../assets/icademy/icademy/svg/svg-0.svg" alt="">
+            </figure>
+        </div>
+        <div class="cart">
+            <figure>
+                <img src="../assets/icademy/icademy/svg/svg-2.svg" alt="">
+            </figure>
+        </div>
         <div class="container-md">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 px-3 text-center">
@@ -189,6 +199,31 @@ export default {
         padding: 140px 0;
         background-image: url(../assets/icademy/icademy/img/background-pattern.jpg);
         background-position: 50% 30%;
+        position: relative;
+        border-bottom: 1px solid #00000026;
+
+        .circle, .cart{
+            width: 50px;
+            height: 50px;
+            padding: 8px;
+            box-shadow: 0 0 10px 0 #ABABAB;
+            margin: 15px 0;
+            position: sticky;
+
+            &:hover img{
+                transform: scale(1.1, 1.1);
+                cursor: pointer;
+                transition: all 300ms;
+            }
+        }
+
+        .circle{
+            background-color: #EE2852;
+            top: 60px;
+        }
+        .cart{
+            top: 125px;
+        }
     }
 
     h1{
