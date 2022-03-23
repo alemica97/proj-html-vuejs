@@ -222,6 +222,7 @@ export default {
             top: 60px;
         }
         .cart{
+            background-color: #ffffff;
             top: 125px;
         }
     }

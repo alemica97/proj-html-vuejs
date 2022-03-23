@@ -2,7 +2,7 @@
     <section id="logo-section" class="container-fluid">
         <div class="container-sm">
             <div class="row justify-content-center">
-            <div class="col-6 col-md-3 g-4"
+            <div class="col-12 col-md-6 col-lg-3 g-4 d-flex justify-content-center"
             v-for="(image, i) in logoArray"
             :key="i">
                 <figure>
