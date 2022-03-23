@@ -22,7 +22,9 @@
                     </h3>
                     <div class="pop-courses"
                     v-for="(el, i) in footerLinks2[1]" :key="i">
-                        <h4 class="mb-0 mt-4">{{ el.subtitle }}</h4>
+                        <h4 class="mb-0 mt-4">
+                            <a href="">{{ el.subtitle }}</a>
+                        </h4>
                         <span class="">{{ el.teacher }}</span>
                     </div>
                 </div>
@@ -30,8 +32,9 @@
                     <h3 class="footer-title mb-4">
                         {{ footerLinks3[0] }}
                     </h3>
-                    <p v-for="(el, i) in footerLinks3[1]" :key="i">
-                        {{ el }}
+                    <p class="footer-par" 
+                    v-for="(el, i) in footerLinks3[1]" :key="i">
+                        <a href="">{{ el }}</a>
                     </p>
                 </div>
                 <div class="col-6 col-md-3 g-5">
@@ -157,10 +160,26 @@ export default {
 
         h4{
             font-size: calc(15px + 0.3vw);
-            color: #C6C6C6
+            a{
+                color: #C6C6C6;
+                    &:hover{
+                    color: #3DB3E8;
+                    transition: all 500ms;
+                }
+            }
         }
         span{
             font-size: calc(14px + 0.1vw);
+        }
+    }
+
+    .footer-par{
+        a{
+            color: currentColor;
+            &:hover{
+                color: #3DB3E8;
+                transition: all 500ms;
+            }
         }
     }
 
