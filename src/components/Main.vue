@@ -8,6 +8,8 @@
         <studentsCarouselSection />
         <!-- Sezione 4 del Main  -->
         <learningSection />
+        <!-- Sezion 5 del Main  -->
+        <onlineCourses />
     </main>
 </template>
 
@@ -16,6 +18,7 @@ import coursesSection from './CoursesSection.vue'
 import childrenSection from './ChildrenSection.vue'
 import studentsCarouselSection from './StudentsCarouselSection.vue'
 import learningSection from './LearningSection.vue'
+import onlineCourses from './OnlineCourses.vue'
 
 export default {
     name: 'myMain',
@@ -25,6 +28,7 @@ export default {
         childrenSection,
         studentsCarouselSection,
         learningSection,
+        onlineCourses,
     }
 }
 </script>

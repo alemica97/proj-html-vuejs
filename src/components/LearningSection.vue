@@ -13,8 +13,8 @@
                     </div>
                 </div>
                 <div class="possibilities-info col-12 col-md-9 p-4 p-md-5">
-                    <h1 class="mb-4">Learning Possibilities</h1>
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia sapiente a nihil id eos at nemo ipsum voluptatem vero repellendus assumenda modi temporibus accusantium aliquam cum, quidem rerum perferendis.</p>
+                    <h1 class="mb-4">{{ infoTitle }}</h1>
+                    <p class="mb-5">{{ infoParagraph }}</p>
                     <p class="possibilities" 
                     v-for="(element, i) in possibilitiesDescription"
                     :key="i">
@@ -50,12 +50,22 @@ export default {
             ],
 
             activeIndex: 0,
+
+            infoTitle: 'Learning Possibilities',
+            infoParagraph: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Saepe quia sapiente a nihil id eos at nemo ipsum voluptatem 
+                            vero repellendus assumenda modi temporibus accusantium aliquam cum, 
+                            quidem rerum perferendis.`,
         }
     }
 }
 </script>
 
 <style lang="scss" scoped>
+
+    #learning{
+        border-bottom: 1px solid #00000026;
+    }
 
     .container-sm{
         padding: 140px 0;
@@ -80,7 +90,7 @@ export default {
     }
 
     .possibilities-title{
-        border-top: 1px solid #E6E6E6;
+        border-top: 1px solid #E6E6E6;//provare outline
         border-right: 1px solid #E6E6E6;
         border-left: 1px solid #E6E6E6;
         display: flex;
@@ -114,10 +124,18 @@ export default {
         .possibilities-title{
             padding-left: 0px;
             justify-content: center;
+            border-top: 1px solid #E6E6E6;
+            border-right: 1px solid #E6E6E6;
+            border-left: 1px solid #E6E6E6;
+            border-bottom: 1px solid #E6E6E6;
 
+            & span{
+                    padding-left: 5px;
+                }
             &.active{
                 border-left: 0px;
                 border-top: 8px solid #40C4FF;
+                border-left: 1px solid #E6E6E6;
                 & span{
                     transform: translateX(0);
                 }
