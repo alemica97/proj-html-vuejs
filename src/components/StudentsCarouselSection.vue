@@ -1,6 +1,6 @@
 <template>
     <section id="students-carousel" class="container-fluid">
-        <div class="row container-lg mx-auto justify-content-center">
+        <div class="row container-sm mx-auto justify-content-center">
             <!-- divido la row in 4 colonne disposte una sopra l'altra, ognuna centrata orizzontalmente  -->
             <div class="col-12">
                 <figure class="text-center mb-5">

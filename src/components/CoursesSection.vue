@@ -6,7 +6,7 @@
                 <span>TOP</span>
             </a>
         </div>
-        <div class="container-xl  py-5 px-0 px-lg-4">
+        <div class="container-sm  py-5 px-0 px-lg-4">
             <div class="row gap-4 gap-lg-3 justify-content-center">
                 <!-- faccio un v-for sul componente figlio cardSectionOne per stamparmi dinamicamente tutte le card  -->
                 <coursesCard 
@@ -110,7 +110,7 @@ export default {
 
         }
     }
-    .container-xl{
+    .container-sm{
         min-height: 1500px;
         background-image: url(../assets/icademy/icademy/img/h5-img-1.jpg);
         background-repeat: no-repeat;

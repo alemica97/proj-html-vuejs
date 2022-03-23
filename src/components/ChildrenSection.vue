@@ -1,6 +1,6 @@
 <template>
     <section id="children-potential" class="container-fluid">
-        <div class="container-xl px-0 px-lg-4">
+        <div class="container-sm px-0 px-lg-4">
             <!-- divido la sezione con una riga suddivisa in due colonne della stessa larghezza  -->
             <div class="row align-items-center flex-column-reverse flex-md-row
             py-5 px-4 px-md-5 px-lg-0">
@@ -56,7 +56,7 @@ export default {
 
 <style lang="scss" scoped>
 
-    .container-xl{
+    .container-sm{
         padding: 80px 0 10px 0;
     }
     .children-potential-description{

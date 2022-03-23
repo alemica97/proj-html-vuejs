@@ -18,9 +18,9 @@
             <div class="row py-3 text-center">
                 <div class="col-12">
                     <!-- tre pallini del carousel  -->
-                <i class="fa-solid fa-circle mx-1"></i>
-                <i class="fa-solid fa-circle mx-1"></i>
-                <i class="fa-solid fa-circle active mx-1"></i>
+                    <i class="fa-solid fa-circle mx-1"></i>
+                    <i class="fa-solid fa-circle mx-1"></i>
+                    <i class="fa-solid fa-circle active mx-1"></i>
                 </div>
             </div>
         </div>

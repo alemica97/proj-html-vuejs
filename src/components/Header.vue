@@ -102,6 +102,7 @@ export default {
 
         &:hover{
             color: #55ACEE;
+            transition: all 300ms;
         }
     }
 
@@ -121,6 +122,7 @@ export default {
 
         &:hover .cart-number{
             background-color: #FFFFFF;
+            transition: all 300ms;
         }
     }
 
@@ -132,8 +134,9 @@ export default {
         width: 16px;
         height: 16px;
         border-radius: 50%;
-        text-align: center;
-        line-height: 16px;
         font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>
