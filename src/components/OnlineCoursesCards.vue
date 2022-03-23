@@ -63,7 +63,7 @@ export default {
                 font-size: calc(15px + 0.4vw);
                 font-weight: 700;
                 color: black;
-                white-space: nowrap;
+                // white-space: nowrap;
             }
         }
 
@@ -105,5 +105,6 @@ export default {
     .card-wrapper{
         color: #B9B9B9;
         border: 1px solid #B9B9B9;
+        background-color: #ffffff;
     }
 </style>

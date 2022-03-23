@@ -84,6 +84,7 @@ export default {
         padding: 140px 0;
         background-image: url(../assets/icademy/icademy/img/background-pattern.jpg);
         background-position: 50% 30%;
+        border-bottom: 1px solid #00000026;
     }
 
     .carousel-index{
@@ -112,6 +113,6 @@ export default {
 
     p{
         font-size: calc(15px + 0.4vw);
-        color: #545454;
+        color: #595959;
     }
 </style>
