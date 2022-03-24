@@ -55,6 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     .container-sm{
         padding: 80px 0 10px 0;
@@ -64,16 +65,17 @@ export default {
         h1{
             font-size: calc(35px + 0.6vw);
             font-weight: 600;
+            color: $title-dark;
         }
          
         p{
              font-size: calc(14px + 0.4vw);
-             color: #3E3E3E;
+             color: $par-dark;
          }
     }
 
     .children-potential-number{
-        color: #40C4FF;
+        color: $colore-principale;
 
         h2{
             font-weight: 800;

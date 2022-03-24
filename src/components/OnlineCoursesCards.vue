@@ -47,6 +47,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     .card-info{
         display: flex;
@@ -62,8 +63,11 @@ export default {
             & span:first-child{
                 font-size: calc(15px + 0.4vw);
                 font-weight: 700;
-                color: black;
-                // white-space: nowrap;
+                color: $par-dark;
+            }
+
+            & span:last-child{
+                color: #BEBEBE;
             }
         }
 
@@ -73,13 +77,13 @@ export default {
             text-align: center;
             line-height: 26px;
             font-size: 14px;
-            color: #ffffff;
+            color: white;
             background-color: #FFD740;
             font-weight: 700;
             border-radius: 20px;
 
             &.not-free{
-                background-color: #40C4FF;
+                background-color: $colore-principale;
             }
         }
     }
@@ -94,6 +98,7 @@ export default {
         margin-bottom: 35px;
         font-size: 14px;
         font-weight: 700;
+        color: #B9B9B9;
         span{
             margin-right: 20px;
         }
@@ -103,8 +108,8 @@ export default {
     }
 
     .card-wrapper{
-        color: #B9B9B9;
-        border: 1px solid #B9B9B9;
-        background-color: #ffffff;
+        color: #847B7B;
+        border: 1px solid $cards-border;
+        background-color: white;
     }
 </style>

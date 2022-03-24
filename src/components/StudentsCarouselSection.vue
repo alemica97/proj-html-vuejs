@@ -53,7 +53,7 @@ export default {
         background-position: center;
         background-attachment: fixed;
         padding: 100px 0;
-        color: #ffffff;
+        color: white;
     }
 
     .carousel-paragraph{
@@ -77,7 +77,7 @@ export default {
 
         i{
             &.active{
-            color: #ffffff;
+            color: white;
             }
 
             &:hover{

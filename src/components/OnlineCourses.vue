@@ -79,12 +79,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     #online-courses{
         padding: 140px 0;
         background-image: url(../assets/icademy/icademy/img/background-pattern.jpg);
         background-position: 50% 30%;
-        border-bottom: 1px solid #00000026;
+        border-bottom: 1px solid $section-border;
     }
 
     .carousel-index{
@@ -93,7 +94,7 @@ export default {
 
         i{
             &.active{
-            color: #40C4FF;
+            color: $colore-principale;
             }
 
             &:hover{
@@ -109,10 +110,11 @@ export default {
     h1{
         font-size: calc(40px + 0.2vw);
         font-weight: 700;
+        color: $title-dark;
     }
 
     p{
         font-size: calc(15px + 0.4vw);
-        color: #595959;
+        color: $par-dark;
     }
 </style>

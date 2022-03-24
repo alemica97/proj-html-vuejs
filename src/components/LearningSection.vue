@@ -62,13 +62,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     #learning{
-        border-bottom: 1px solid #00000026;
+        border-bottom: 1px solid $section-border;
     }
 
     .container-sm{
         padding: 140px 0;
+        background-image: url(../assets/icademy/icademy/img/h12-tabs-icon-1.png);
+        background-repeat: no-repeat;
+        background-position: 90% 90%;
     }
 
     .possibilities-info{
@@ -85,14 +89,16 @@ export default {
     .possibilities{
 
         i{
-            color: #40C4FF;
+            color: $colore-principale;
+            margin-right: 8px;
         }
     }
 
     .possibilities-title{
-        border-top: 1px solid #E6E6E6;//provare outline
-        border-right: 1px solid #E6E6E6;
-        border-left: 1px solid #E6E6E6;
+        border-top: 1px solid $column-border;//provare outline
+        border-right: 1px solid $column-border;
+        border-left: 1px solid $column-border;
+        background-color: white;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -100,7 +106,7 @@ export default {
         font-weight: 700;
         padding-left: 30px;
         &:last-child{
-            border-bottom: 1px solid #E6E6E6;
+            border-bottom: 1px solid $column-border;
         }
 
         &:hover{
@@ -108,9 +114,9 @@ export default {
         }
 
         &.active{
-            background-color: #FCFCFC;
-            color: #40C4FF;
-            border-left: 8px solid #40C4FF;
+            background-color: $column-bkc;
+            color: $colore-principale;
+            border-left: 8px solid $colore-principale;
             & span{
                 transform: translateX(-8px);
             }
@@ -124,18 +130,18 @@ export default {
         .possibilities-title{
             padding-left: 0px;
             justify-content: center;
-            border-top: 1px solid #E6E6E6;
-            border-right: 1px solid #E6E6E6;
-            border-left: 1px solid #E6E6E6;
-            border-bottom: 1px solid #E6E6E6;
+            border-top: 1px solid $column-border;
+            border-right: 1px solid $column-border;
+            border-left: 1px solid $column-border;
+            border-bottom: 1px solid $column-border;
 
             & span{
                     padding-left: 5px;
                 }
             &.active{
                 border-left: 0px;
-                border-top: 8px solid #40C4FF;
-                border-left: 1px solid #E6E6E6;
+                border-top: 8px solid $colore-principale;
+                border-left: 1px solid $column-border;
                 & span{
                     transform: translateX(0);
                 }

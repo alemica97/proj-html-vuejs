@@ -17,163 +17,164 @@
                     <p class="pricing-par">{{ pricingParagraph }}</p>
                 </div>
             </div>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <h4>Save up to 40% by paying weekly</h4>
-                        </td>
-                        <td>
-                            <figure class="mb-3">
-                                <img src="../assets/icademy/icademy/img/h5-custom-icon-7.png" alt="">
-                            </figure>
-                            <h4>Standard</h4>
-                            <span>$12</span>
-                        </td>
-                        <td>
-                            <figure class="mb-4">
-                                <img src="../assets/icademy/icademy/img/h5-custom-icon-8.png" alt="">
-                            </figure>
-                            <h4>Professional</h4>
-                            <span>$59</span>
-                        </td>
-                        <td>
-                            <figure class="mb-4">
-                                <img src="../assets/icademy/icademy/img/h5-custom-icon-9.png" alt="">
-                            </figure>
-                            <h4>Advanced</h4>
-                            <span>$88</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Number of Courses</span>
-                        </td>
-                        <td>
-                            <span>2</span>
-                        </td>
-                        <td>
-                            <span>4</span>
-                        </td>
-                        <td>
-                            <span>6</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Time</span>
-                        </td>
-                        <td>
-                            <span>15 Days</span>
-                        </td>
-                        <td>
-                            <span>30 Days</span>
-                        </td>
-                        <td>
-                            <span>30 Days</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Web Designing</span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Human-Centered Designing</span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Basic Marketing</span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-xmark"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Pyton for Everybody</span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-xmark"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Android Developer</span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-xmark"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-xmark"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Business English</span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-xmark"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-xmark"></i></span>
-                        </td>
-                        <td>
-                            <span><i class="fa-solid fa-check"></i></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span></span>
-                        </td>
-                        <td>
-                            <button class="btn-white">get it now</button>
-                        </td>
-                        <td>
-                            <button class="btn-blue">get it now</button>
-                        </td>
-                        <td>
-                            <button class="btn-white">get it now</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-wrapper">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h4>Save up to 40% by paying weekly</h4>
+                            </td>
+                            <td>
+                                <figure class="mb-3">
+                                    <img src="../assets/icademy/icademy/img/h5-custom-icon-7.png" alt="">
+                                </figure>
+                                <h4>Standard</h4>
+                                <span>$12</span>
+                            </td>
+                            <td>
+                                <figure class="mb-4">
+                                    <img src="../assets/icademy/icademy/img/h5-custom-icon-8.png" alt="">
+                                </figure>
+                                <h4>Professional</h4>
+                                <span>$59</span>
+                            </td>
+                            <td>
+                                <figure class="mb-4">
+                                    <img src="../assets/icademy/icademy/img/h5-custom-icon-9.png" alt="">
+                                </figure>
+                                <h4>Advanced</h4>
+                                <span>$88</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Number of Courses</span>
+                            </td>
+                            <td>
+                                <span>2</span>
+                            </td>
+                            <td>
+                                <span>4</span>
+                            </td>
+                            <td>
+                                <span>6</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Time</span>
+                            </td>
+                            <td>
+                                <span>15 Days</span>
+                            </td>
+                            <td>
+                                <span>30 Days</span>
+                            </td>
+                            <td>
+                                <span>30 Days</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Web Designing</span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Human-Centered Designing</span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Basic Marketing</span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Pyton for Everybody</span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Android Developer</span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Business English</span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </td>
+                            <td>
+                                <span><i class="fa-solid fa-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span></span>
+                            </td>
+                            <td>
+                                <button class="btn-white">get it now</button>
+                            </td>
+                            <td>
+                                <button class="btn-blue">get it now</button>
+                            </td>
+                            <td>
+                                <button class="btn-white">get it now</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         
     </section>
@@ -238,6 +239,29 @@ export default {
         margin-bottom: 100px;
     }
 
+    .table-wrapper{
+        overflow-x: auto;
+    }
+
+    ::-webkit-scrollbar {
+            height: 15px;
+        }
+
+        ::-webkit-scrollbar-track{
+            background-color: rgba(51, 51, 51, 0.7);
+            border-radius: 100px;
+            margin-right: 0;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            background-color: #40C4FF;
+            border-radius: 100px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover{
+            background-color: #34a2d4;
+        }
+
     table{
         width: 100%;
         tr{
@@ -296,7 +320,7 @@ export default {
     }
 
     button{
-        font-size: 16px;
+        font-size: 15px;
         padding: 15px 40px;
     }
 </style>

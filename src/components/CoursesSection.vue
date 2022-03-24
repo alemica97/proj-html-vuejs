@@ -78,6 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     #courses{
         position: relative;
@@ -86,7 +87,7 @@ export default {
         .top{
             width: 70px;
             height: 70px;
-            background-color: #40C4FF;
+            background-color: $colore-principale;
             position: fixed;
             right: 0;
             bottom: 20%;
@@ -103,7 +104,7 @@ export default {
             & a{
                 text-decoration: none;
                 text-align: center;
-                color: #ffffff;
+                color: white;
                 font-size: 17px;
                 font-weight: 700;
             }
@@ -120,15 +121,15 @@ export default {
 
     .tutoring{
         padding: 90px 0 0 0;
-        // min-height: 800px;
 
         h1{
+            color: $title-dark;
             font-size: calc(38px + 1vw);
             font-weight: 600;
         }
          p{
              font-size: calc(14px + 0.4vw);
-             color: #3E3E3E;
+             color: $par-dark;
          }
     }
 </style>

@@ -71,7 +71,7 @@ export default {
         }
         
         .jumbo-description{
-            color: #ffffff;
+            color: white;
             z-index: 999;
 
             .jumbo-title{
@@ -99,7 +99,7 @@ export default {
         color: #ffffff4b;
 
         &.active{
-            color: #ffffff;
+            color: white;
         }
         &:hover{
             cursor: pointer;

@@ -26,5 +26,4 @@ export default {
 @import '~@fortawesome/fontawesome-free/css/all.css';
 @import './assets/scss/common.scss';
 
-
 </style>

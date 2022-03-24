@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     figure{
         max-width: 80px;
@@ -30,10 +31,10 @@ export default {
     }
 
     .card{
-        border: 1px solid #0707071A;
+        border: 1px solid $cards-border;
         border-radius: 0;
         aspect-ratio: 4/5;
-        background-color: #F2F8FC;
+        background-color: $cards-bkc;
         padding: 20px;
 
         h3{

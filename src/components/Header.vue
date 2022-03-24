@@ -74,6 +74,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     .container-xl{
         padding: 30px 20px;
@@ -84,11 +85,10 @@ export default {
     }
 
     a{
-        color: #FFFFFF;
-        text-decoration: none;
+        color: white;
 
         &:hover{
-            color: #55ACEE;
+            color: $colore-principale;
         }
     }
 
@@ -97,11 +97,11 @@ export default {
     }
 
     .navbar-dark .navbar-nav .nav-link {
-        color: #FFFFFF;
+        color: white;
         text-transform: uppercase;
 
         &:hover{
-            color: #55ACEE;
+            color: $colore-principale;
             transition: all 300ms;
         }
     }
@@ -121,7 +121,7 @@ export default {
         position: relative;
 
         &:hover .cart-number{
-            background-color: #FFFFFF;
+            background-color: white;
             transition: all 300ms;
         }
     }
@@ -130,7 +130,7 @@ export default {
         position: absolute;
         top: -3px;
         right: -8px;
-        background-color: #40C4FF;
+        background-color: $colore-principale;
         width: 16px;
         height: 16px;
         border-radius: 50%;
