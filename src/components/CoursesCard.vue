@@ -44,6 +44,8 @@ export default {
 
         &:hover{
             cursor: pointer;
+            transform: translateY(-5%);
+            transition: all 500ms;
         }
     }
 
