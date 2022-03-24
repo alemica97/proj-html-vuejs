@@ -1,8 +1,8 @@
 <template>
     <section id="online-courses" class="container-fluid">
-        <div class="container-sm">
+        <div class="container-sm px-0 px-md-2 px-lg-4">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10 px-3 text-center">
+                <div class="col-12 col-md-10 text-center">
                     <h1 class="mb-4">{{ courseTitle }}</h1>
                     <p class="mb-5">{{ courseParagraph }}</p>
                 </div>
@@ -108,13 +108,13 @@ export default {
     }
 
     h1{
-        font-size: calc(40px + 0.2vw);
+        font-size: $main-title;
         font-weight: 700;
         color: $title-dark;
     }
 
     p{
-        font-size: calc(15px + 0.4vw);
+        font-size: $main-par;
         color: $par-dark;
     }
 </style>

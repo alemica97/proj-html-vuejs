@@ -15,7 +15,7 @@
                 :cardsEl="element"/>
             </div>
             <div class="row tutoring ">
-                <div class="col-12 col-md-8 col-lg-6">
+                <div class="col-12 col-md-8 col-lg-7">
                     <h1 class="mb-4">{{ courseSectionTitle }}</h1>
                 </div>
                 <div class="col-12">
@@ -109,6 +109,13 @@ export default {
                 font-weight: 700;
             }
 
+            &:hover{
+                background-color: $cards-bkc;
+                 a{
+                     color: $title-dark;
+                 }
+                 transition: all 500ms;
+            }
         }
     }
     .container-sm{
@@ -124,12 +131,16 @@ export default {
 
         h1{
             color: $title-dark;
-            font-size: calc(38px + 1vw);
-            font-weight: 600;
+            font-size: $main-title;
+            font-weight: 700;
         }
          p{
-             font-size: calc(14px + 0.4vw);
+             font-size: $main-par;
              color: $par-dark;
          }
+    }
+
+    button{
+        padding-left: 0;
     }
 </style>

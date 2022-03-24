@@ -1,6 +1,6 @@
 <template>
     <section id="learning" class="container-fluid">
-        <div class="container-sm">
+        <div class="container-sm px-0  px-md-2 px-lg-4">
             <div class="row align-items-center">
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <div class="row p-2 p-md-0">
@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="possibilities-info col-12 col-md-9 p-4 p-md-5">
+                <div class="possibilities-info col-12 col-md-9">
                     <h1 class="mb-4">{{ infoTitle }}</h1>
                     <p class="mb-5">{{ infoParagraph }}</p>
                     <p class="possibilities" 
@@ -72,17 +72,20 @@ export default {
         padding: 140px 0;
         background-image: url(../assets/icademy/icademy/img/h12-tabs-icon-1.png);
         background-repeat: no-repeat;
-        background-position: 90% 90%;
+        background-position: 92% 80%;
+        background-size: calc(120px + 1vw);
+        color: #847B7B;
     }
 
     .possibilities-info{
         p{
-            font-size: calc(15px + 0.4vw);
+            font-size: $main-par;
         }
 
         h1{
-            font-size: calc(40px + 0.2vw);
+            font-size: $main-title;
             font-weight: 700;
+            color: $title-dark;
         }
     }
 

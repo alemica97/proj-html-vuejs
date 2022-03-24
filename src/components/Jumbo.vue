@@ -75,24 +75,18 @@ export default {
             z-index: 999;
 
             .jumbo-title{
-                font-size: calc(40px + 1.6vw);
+                font-size: calc(38px + 2.2vw);
                 font-weight: 700;
             }
             .jumbo-paragraph{
                 font-size: calc(14px + 0.3vw);
-                font-weight: 400;
-                color: #ffffffe0;
+                color: #FBFBFC;
             }
 
             &.row{
                 padding: 140px 15px 165px 15px;
             }
         }
-    }
-   
-    button{  //questo è qui finché non capisco perché non funziona correttamente il file _common.scss
-        font-size: calc(10px + 0.5vw);
-        font-weight: 600;
     }
 
     .fa-solid{

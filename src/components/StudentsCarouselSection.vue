@@ -46,6 +46,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
+
     #students-carousel{
         background-image: url(../assets/icademy/icademy/img/h5-parallax-img-1.png);
         background-size: cover;
@@ -57,12 +59,12 @@ export default {
     }
 
     .carousel-paragraph{
-        font-size: calc(14px + 0.4vw);
+        font-size: $main-par;
     }
 
     .carousel-student{
         h4{
-            font-size: calc(20px + 0.2vw);
+            font-size: calc(20px + 0.4vw);
             font-weight: 700;
         }
         span{

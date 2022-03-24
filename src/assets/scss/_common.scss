@@ -30,10 +30,12 @@ figure{
 }
 
 button{
-    padding: 16px 48px;
+    padding: 18px 48px;
     border: none;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
     text-transform: uppercase !important;
+    font-size: calc(10px + 0.5vw) !important;
+    font-weight: 600 !important;
 }
 
 .btn-blue{
@@ -51,4 +53,9 @@ button{
     background-color: #FFFFFF;
     color: #878787;
     border: 2px solid #EAEBEB;
+}
+
+button:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 300ms;
 }

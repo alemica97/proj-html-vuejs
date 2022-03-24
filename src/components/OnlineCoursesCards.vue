@@ -68,6 +68,7 @@ export default {
 
             & span:last-child{
                 color: #BEBEBE;
+                font-weight: 700;
             }
         }
 

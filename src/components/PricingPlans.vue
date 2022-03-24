@@ -10,9 +10,9 @@
                 <img src="../assets/icademy/icademy/svg/svg-2.svg" alt="">
             </figure>
         </div>
-        <div class="container-md">
+        <div class="container-sm px-2 px-lg-4">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10 px-3 text-center">
+                <div class="col-12 col-md-10 text-center">
                     <h1 class="mb-4">{{ pricingTitle }}</h1>
                     <p class="pricing-par">{{ pricingParagraph }}</p>
                 </div>
@@ -230,13 +230,13 @@ export default {
     }
 
     h1{
-        font-size: calc(40px + 0.2vw);
+        font-size: $main-title;
         font-weight: 700;
         color: $title-dark;
     }
 
     .pricing-par{
-        font-size: calc(15px + 0.4vw);
+        font-size: $main-par;
         color: $par-dark;
         margin-bottom: 100px;
     }
@@ -323,6 +323,6 @@ export default {
 
     button{
         font-size: 15px;
-        padding: 15px 40px;
+        padding: 15px 35px;
     }
 </style>
