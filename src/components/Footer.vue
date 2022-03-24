@@ -119,12 +119,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
+
     #footer{
         background-color: #222222;
-        color: #B4B4B4;
+        color: #B9B9B9;
 
         .container-sm:first-child{
-            border-bottom: 1px solid #6d6d6da6;
+            border-bottom: 1px solid #efefef62;
         }
 
         .container-sm:last-child{
@@ -134,7 +136,7 @@ export default {
         }
 
         h3{
-            color: #ffffff;
+            color: white;
         }
     }
 
@@ -148,11 +150,11 @@ export default {
 
     .footer-title{
         font-size: calc(20px + 0.4vw);
-        // font-weight: 700;
+        font-weight: 700;
     }
 
     .phone-clock{
-        color: #C6C6C6;
+        color: #CECECE;
         font-weight: 700;
     }
 
@@ -163,7 +165,7 @@ export default {
             a{
                 color: #C6C6C6;
                     &:hover{
-                    color: #3DB3E8;
+                    color: #55ACEE;
                     transition: all 500ms;
                 }
             }

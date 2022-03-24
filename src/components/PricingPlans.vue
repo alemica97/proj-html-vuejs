@@ -195,13 +195,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
     #pricing-plans{
         padding: 140px 0;
         background-image: url(../assets/icademy/icademy/img/background-pattern.jpg);
         background-position: 50% 30%;
         position: relative;
-        border-bottom: 1px solid #00000026;
+        border-bottom: 1px solid $section-border;
 
         .circle, .cart{
             width: 50px;
@@ -223,7 +224,7 @@ export default {
             top: 60px;
         }
         .cart{
-            background-color: #ffffff;
+            background-color: white;
             top: 125px;
         }
     }
@@ -231,11 +232,12 @@ export default {
     h1{
         font-size: calc(40px + 0.2vw);
         font-weight: 700;
+        color: $title-dark;
     }
 
     .pricing-par{
         font-size: calc(15px + 0.4vw);
-        color: #545454;
+        color: $par-dark;
         margin-bottom: 100px;
     }
 
@@ -254,7 +256,7 @@ export default {
         }
 
         ::-webkit-scrollbar-thumb{
-            background-color: #40C4FF;
+            background-color: $colore-principale;
             border-radius: 100px;
         }
 
@@ -273,11 +275,11 @@ export default {
         text-align: center;
         padding: 30px 0;
         width: calc(100% / 4);
-        border: 1px solid #E6E6E6;
+        border: 1px solid $column-border;
         font-size: calc(16px + 0.4vw);
         font-weight: 700;
-        color: #878787;
-        background-color: #ffffff;
+        color: #847B7B;
+        background-color: white;
 
         h4{
             font-size: calc(22px + 0.3vw);
@@ -286,7 +288,7 @@ export default {
         }
 
         .fa-check{
-            color: #40C4FF;
+            color: $colore-principale;
         }
     }
 
@@ -296,7 +298,7 @@ export default {
             border-top: 5px solid #D6F2FF;
 
             &:nth-child(3n){
-                border-top: 5px solid #40C4FF;
+                border-top: 5px solid $colore-principale;
             }
             
         }
@@ -306,7 +308,7 @@ export default {
         }
 
         & td:nth-child(1n + 2){
-            background-color: #F7FDFF;
+            background-color: $table-bkc;
         }
     }
 
@@ -315,7 +317,7 @@ export default {
             padding: 25px 0;
         }
         & td:nth-child(1n + 2){
-            background-color: #F7FDFF;
+            background-color: $table-bkc;
         }
     }
 
