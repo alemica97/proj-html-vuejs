@@ -1,6 +1,7 @@
 <template>
     <div class="col-9 col-md-4">
-        <div class="card-wrapper">
+        <div class="card-wrapper"
+        :class="isFree() ? '' : 'not-free'">
             <figure>
             <img :src="singleCard.image" alt="">
             </figure>
@@ -9,8 +10,7 @@
                     <span>{{singleCard.title}}</span>
                     <span>{{singleCard.name}}</span>
                 </div>
-                <div class="card-price"
-                :class="isFree() ? '' : 'not-free'">
+                <div class="card-price">
                     <span>{{singleCard.price}}</span>
                 </div>
             </div>
@@ -82,13 +82,12 @@ export default {
             background-color: #FFD740;
             font-weight: 700;
             border-radius: 20px;
-
-            &.not-free{
-                background-color: $colore-principale;
-            }
         }
     }
 
+    .not-free .card-price{
+        background-color: $colore-principale;
+    }
     .card-paragraph{
         padding: 0 12px 28px 12px;
     }
@@ -108,9 +107,44 @@ export default {
         }
     }
 
+    
+
     .card-wrapper{
         color: #847B7B;
         border: 1px solid $cards-border;
         background-color: white;
+        overflow: hidden;
+
+        &:hover{
+            cursor: pointer;
+            figure{
+                transform: scale(1.1, 1.1);
+                transition: all 800ms;
+            }
+        }
+
+        figure{
+            position: relative;
+        }
+
+        figure::after{
+            content: '';
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #FFD740;
+            opacity: 0.6;
+        }
+
+        &.not-free figure::after{
+            background-color: $colore-principale;
+        }
+
+        &:hover figure::after{
+            display: block;
+        }
     }
 </style>

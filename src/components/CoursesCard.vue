@@ -41,6 +41,10 @@ export default {
             font-size: calc(14px + 0.4vw);
             font-weight: 700;
         }
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 
     @media screen and (min-width: 992px){

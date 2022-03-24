@@ -1,8 +1,8 @@
 <template>
     <section id="learning" class="container-fluid">
-        <div class="container-sm px-0  px-md-2 px-lg-4">
+        <div class="container-sm px-0 px-md-2 px-lg-4">
             <div class="row align-items-center">
-                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                <div class="col-12 col-md-3 mb-5 mb-md-0">
                     <div class="row p-2 p-md-0">
                         <div class="possibilities-title col-4 col-md-12"
                         v-for="(element, i) in possibilitiesTitle"
@@ -123,6 +123,11 @@ export default {
             & span{
                 transform: translateX(-8px);
             }
+        }
+
+        &:hover span{
+            transform: scale(1.03, 1.03);
+            transition: all 500ms;
         }
     }
 
