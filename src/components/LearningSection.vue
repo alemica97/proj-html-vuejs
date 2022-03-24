@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="possibilities-info col-12 col-md-9">
+                <div class="possibilities-info col-12 col-md-9 px-0 px-md-4 px-lg-5">
                     <h1 class="mb-4">{{ infoTitle }}</h1>
                     <p class="mb-5">{{ infoParagraph }}</p>
                     <p class="possibilities" 
